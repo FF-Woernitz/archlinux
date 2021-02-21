@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./Dockerfile-devel
           platforms: linux/arm/v7
           push: true
           tags: devel
