@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile-devel
           platforms: linux/arm/v7
           push: true
-          tags: devel
+          tags: tobsa/archlinux:devel
